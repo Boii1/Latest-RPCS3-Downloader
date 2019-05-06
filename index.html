@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="content" style="display: none;"></div>
+		<script type="text/javascript">
+			$.getJSON('http://www.whateverorigin.org/get?url=' + encodeURIComponent('http://rpcs3.net/download') + '&callback=?', function(data){
+				document.getElementById("content").innerHTML = data.contents;
+				window.location = $(".button-con-container").find("a")[0];
+			});
+		</script>
+	</body>
+</html>
