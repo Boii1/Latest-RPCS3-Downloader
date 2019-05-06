@@ -1,5 +1,5 @@
 # Latest-RPCS3-Downloader
-Automatically grabs the latest windows revision from http://rpcs3.net/download and sends it to the user through javascript using an anyorigin alternative.
+Loads http://rpcs3.net/download into a hidden divisor of the form using jQuery and the anyorigin clone whateverorigin. Then loads the latest windows revision download link into the browser and downloads the file.
 
 Instructions:
  1. Simply drag anywhere on your computer, where easiest to access on a daily basis.
